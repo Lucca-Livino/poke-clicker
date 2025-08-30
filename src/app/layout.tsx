@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Pokémon Clicker - Bulbasaur",
-  description: "Um divertido jogo de cliques com o Bulbasaur!",
+  description: "Jogo Clicker de pokémon",
 };
 
 export default function RootLayout({

@@ -40,7 +40,7 @@ export default function Home() {
                       newClicks >= 50 ? { stage: "second" } : 
                       { stage: "first" };
     
-    // Animação mais curta: 600ms para evolução, 150ms para clique normal
+
     const animationDuration = previousPokemon.stage !== newPokemon.stage ? 600 : 150;
     
     setTimeout(() => {
